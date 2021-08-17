@@ -1,0 +1,244 @@
+@font-face{
+    font-family: "fatface";
+    src: url(../fonts/Abril_Fatface.zip);
+}
+@font-face{
+    font-family: "comfortaa";
+    src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
+}
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
+}
+h1{
+    font-family: "fatface";
+    font-size: 90px;
+    text-align: center;
+    padding-top: 55px;
+    margin-top: 0;
+    text-shadow: 2px 2px 2px white;
+}
+h3{
+    font-family: "comfortaa";
+}
+body{ 
+    margin: 0;
+    background-image: url(../img/whitblack.jfif);
+    width: 100%;
+}
+
+.Logo{
+    background-image: url(../img/white.jfif);
+    margin: 0px;
+    height: 200px;
+}
+.logoc{
+    width: 400px;
+    height: 200px;
+    padding: 9px;
+    text-align: center;
+}
+/*menu*/
+
+.menuprincipal{
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    font-family: "comfortaa";
+}
+
+.nav{
+    margin-top: 0px;
+    width: 500px;
+    padding: 20px;
+    text-align: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.nav-ancla{
+    background: pink;
+    padding: 10px 30px;
+    color:black;
+    text-decoration: none;
+}
+.nav-ancla:hover{
+    background-color: black;
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0; 
+    display: inline-flex;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.menu a{
+    background-color: black;
+    text-decoration: none;
+    padding: 16px;
+    color:white;
+    display: block;
+    
+}
+.menu a:hover{
+    background-color: coral;
+}
+ .menu li:hover> ul{
+    display: block;
+ }
+ .menu ul li ul{
+    display: none;
+}
+   /* .menu li{
+        border: 1px solid white;
+    }*/
+    /*parrafos*/
+    .parrafo1{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo2{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo3{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo4{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo5{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo6{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo7{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    .parrafo8{
+        text-align: justify;
+        width: 95%;
+        margin-left: 30px;
+        font-size: 25px;
+        font-family: "comfortaa";
+    }
+    /*imagenes*/
+    .producto4{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+       /* box-shadow: 4px 4px 4px black;*/
+    }
+    .producto12{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto14{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto15{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto3{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto16{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto17{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    .producto10{
+        width: 300px;
+        height: 300px;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    /*footer*/
+
+    .footer{
+        background-color: black;
+        height: 250px;
+        color:white;
+        padding-top: 2px;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .logoinstagram{
+        width: 40px;
+        height: 40px;
+        filter: drop-shadow(1px 1px 3px white);
+        margin: 12px;
+    }
+    .logowpp{
+        width: 40px;
+        height: 40px;
+        filter: drop-shadow(1px 1px 3px white);
+        margin: 12px;
+    }
+    h2{
+        line-height: 9px;
+        font-family: "comfortaa";
+    }
+
+    @media(max-width: 600px){
+        .nav{
+            background-color: white;
+            flex-direction: column;
+        }
+        .nav-ancla{
+            margin: 10px 0;
+        }
+    }
+    /*distribucion*/
+    /*.primero{
+        border-bottom: 4px solid purple;
+    }*/
+    
