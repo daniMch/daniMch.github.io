@@ -242,3 +242,10 @@ body{
         border-bottom: 4px solid purple;
     }*/
     
+/*categoria perfumeria*/
+.center{
+    text-align: center;
+}
+.perfumeria{
+    width: 450px;
+}
