@@ -6,11 +6,7 @@
     font-family: "comfortaa";
     src: url(../fonts/Comfortaa-VariableFont_wght.ttf);
 }
-.container{
-    margin-left: 100px;
-    margin-right: 100px;
-    justify-content: center;
-}
+
 h1{
     font-family: "fatface";
     font-size: 90px;
@@ -26,6 +22,8 @@ body{
     margin: 0;
     background-image: url(../img/whitblack.jfif);
     width: 100%;
+    font-family: "comfortaa";
+
 }
 
 .Logo{
@@ -48,23 +46,25 @@ body{
     font-family: "comfortaa";
 }
 
-.nav{
+/*.menu{
     margin-top: 0px;
     width: 500px;
     padding: 20px;
     text-align: center;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-.nav-ancla{
+}*/
+
+/*.nav-menu{
     background: pink;
     padding: 10px 30px;
     color:black;
     text-decoration: none;
-}
-.nav-ancla:hover{
+}*/
+/*.nav-ancla:hover{
     background-color: black;
-}
+}*/
 .menu ul{
     list-style: none;
     display: flex;
@@ -87,130 +87,108 @@ body{
 }
  .menu li:hover> ul{
     display: block;
+   /* position: absolute;*/
  }
  .menu ul li ul{
     display: none;
 }
-   /* .menu li{
-        border: 1px solid white;
-    }*/
-    /*parrafos*/
-    .parrafo1{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
+   /* galeria inicio*/
+
+    .container{
+        margin-left: 0;
+        margin-right: 0;
+        justify-content: center;
+        text-align: center;
+    }
+    .galeria2{
+        width: 250px;
+        height: 250px;
+        box-shadow: 3px 3px 7px grey;
+    }
+    .flex-container-galeria2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .flex-hijo2{
+        width: 300px;
+        margin: 20px;
+    }
+    .flex-hijo2 h4{
         font-family: "comfortaa";
     }
-    .parrafo2{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
+    .flex-hijo2 img{
+        width: 300px;
+        height: 300px;
+    }
+    .parrafo{
+        font-size: 20px;
+        margin-left: 60px;
+        margin-right: 60px;
+        margin-top: 40px;
         font-family: "comfortaa";
     }
-    .parrafo3{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    .parrafo4{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    .parrafo5{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    .parrafo6{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    .parrafo7{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    .parrafo8{
-        text-align: justify;
-        width: 95%;
-        margin-left: 30px;
-        font-size: 25px;
-        font-family: "comfortaa";
-    }
-    /*imagenes*/
-    .producto4{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-       /* box-shadow: 4px 4px 4px black;*/
-    }
-    .producto12{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto14{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto15{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto3{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto16{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto17{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
-    .producto10{
-        width: 300px;
-        height: 300px;
-        margin-top: 15px;
-        margin-left: 10px;
-    }
+   /*galeria productos*/
+   .container{
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    text-align: center;
+}
+.galeria3{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 6px black;
+}
+.flex-container-galeria3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-hijo3{
+    width: 300px;
+    margin: 20px;
+}
+.flex-hijo3 h4{
+    font-family: "comfortaa";
+}
+.flex-hijo3 img{
+    width: 90%;
+}
+
+.parrafo{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 40px;
+    font-family: "comfortaa";
+    text-align: justify;
+
+}
+
+.foto{
+    
+    text-align: center;
+    margin-bottom: 20px;
+}
+.foto1{
+    width: 100%;
+  /*  width: 1480px;*/
+    height: 449px;
+}
+
     /*footer*/
 
-    .footer{
-        background-color: black;
-        height: 250px;
-        color:white;
-        padding-top: 2px;
+    /*.footer{
+        background-color: rgba(255, 255, 255, 0.623);
+        height: 200px;
+        border-top: 3px solid black;
+        color: black;
+        font-size: small;
+        padding-bottom: 80px;
         text-align: center;
-        margin-top: 50px;
-    }
+        grid-area: footer;
+    }*/
     .logoinstagram{
         width: 40px;
         height: 40px;
@@ -228,15 +206,7 @@ body{
         font-family: "comfortaa";
     }
 
-    @media(max-width: 600px){
-        .nav{
-            background-color: white;
-            flex-direction: column;
-        }
-        .nav-ancla{
-            margin: 10px 0;
-        }
-    }
+  
     /*distribucion*/
     /*.primero{
         border-bottom: 4px solid purple;
@@ -246,6 +216,299 @@ body{
 .center{
     text-align: center;
 }
-.perfumeria{
-    width: 450px;
+h2{
+    margin-top: 60px;
+    padding: 20px;
 }
+
+/*galeria mi amor */
+.galeria{
+    width: 250px;
+    height: 250px;
+    box-shadow: 2px 2px 6px black;
+}
+.flex-container-galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-hijo{
+    width: 300px;
+    margin: 20px;
+}
+.flex-hijo h4{
+    font-family: "comfortaa";
+}
+.flex-hijo img{
+    width: 90%;
+}
+.flex-hijo p{
+    text-align: justify;
+    font-family: "comfortaa";
+}
+
+/*footer*/
+.container-footer{
+    display: grid;
+    background-color: lightgray;
+    height: 280px;
+    border-top: 3px solid black;
+    color: #000;
+    font-size: small;
+    padding-bottom: 80px;
+    text-align: center;
+    grid-area: footer;
+}
+.texto{
+    padding: 8px;
+    color: #000;
+}
+
+.texto-footer{
+    line-height: 30px;
+    color: #000;
+}
+.grid-footer{
+    width: 90%;
+    height: 350px;
+    margin: 0;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 19%);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas:
+    "contenido1 contenido1 contenido2 contenido2"
+    "contenido1 contenido1 contenido2 contenido2"
+    "contenido1 contenido1 contenido2 contenido2"
+    ;
+}
+.footer-proceso{
+    background-color: rgb(252 201 196);
+    height: 350px;
+    margin: 0;
+    margin-top: 151px;
+}
+.contenido1{
+    width: 600px;
+    text-align: center;
+    margin: 20px;
+    grid-area: contenido1;
+    margin-left: 193px;
+    height: 350px;
+}
+.contenido1 h2{
+    text-align: center;
+    color: #000;
+    margin-top: auto;
+}
+.contenido1 p{
+    text-align: justify;
+    text-align: center;
+    padding-left: 104px;
+    padding-right: 104px;
+   color: #000;
+}
+.contenido2{
+    width: 600px;
+    text-align: center;
+    margin: 20px;
+    grid-area: contenido2;
+    margin-left: 98px;
+    height: 350px;
+}
+.contenido2 h2{
+    text-align: center;
+    color: #000;
+    margin-top: auto;
+}
+.contenido2 p{
+    padding-left: 104px;
+    padding-right: 104px;
+    color: #000;
+}
+.contenido2 ul li{
+    text-align: start;
+    color: #000;
+}
+.lista{
+    text-align: center;
+    margin-left: 176px;
+}
+
+/*proceso de compra*/
+.grid-container{
+    width: 90%;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(5, 19%);
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+    "contenido contenido contenido cuadro cuadro"
+    "contenido contenido contenido cuadro cuadro"
+    "contenido contenido contenido cuadro cuadro"
+    "izquierda centro centro centro centro"
+    "izquierda centro centro centro centro"
+    "izquierda centro centro centro centro ";
+}
+
+main{
+    grid-area: contenido;
+}
+
+
+.texto{
+    text-decoration: none;
+    color: white;
+}
+.contenido{
+    background-color: rgb(252, 201, 196);
+    padding: 20px;
+    grid-area: contenido;
+}
+aside{
+    padding: 20px;
+    margin: 20px;
+    /*align-items: center;*/
+    justify-content: center;
+    display: flex;
+    grid-area: cuadro;
+}
+
+.GIF{
+    width: 462px;;
+    height: 301px;
+}
+.oferta{
+    width: 337px;
+    height: 497px;
+    box-shadow: -10px 11px 14px #00000085;
+}
+.whatsApp{
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 34px;
+}
+.titulo-wpp{
+    text-align: center;
+    padding: 5px;
+}
+.divizquierda{
+    padding: 0;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    grid-area: izquierda;
+    width: 300px;
+}
+.divcentro{
+    background-color: skyblue;
+    padding: 20px;
+    grid-area: centro;
+    margin-left: 105px;
+    height: 346px;
+    margin-top: 50px;
+}
+/*.divderecha{
+    background-color: darkgrey;
+    padding: 20px;
+    margin-top: 2px;
+    grid-area: derecha;
+}*/
+.rabbit{
+    width: 60px;
+    height: 60px;
+}
+
+
+@media(max-width: 600px){
+    .menu a{
+        background-color: #000;
+        text-decoration: none;
+        padding: 16px;
+        color:white;
+        display: block;
+       
+    }
+    .menuprincipal{
+        background-color: #000;
+        width: 100%;
+        text-align: center;
+        font-family: "comfortaa";
+
+    }
+    .menu{
+        flex-direction: column;
+    }
+    .foto1{
+        width: 100%;
+        height: auto;
+    }
+    .contenido{
+        margin-left: 30px;
+    }
+    .grid-container{
+        width: 100%;
+        margin: 20px auto;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(5, 15%);
+        grid-template-rows: repeat(8, auto);
+        height: auto;
+        grid-template-areas:
+        "contenido contenido contenido contenido contenido"
+        "contenido contenido contenido contenido contenido"
+        "contenido contenido contenido contenido contenido"
+        "cuadro cuadro cuadro cuadro cuadro"
+        "izquierda izquierda izquierda izquierda izquierda"
+        "izquierda izquierda izquierda izquierda izquierda"
+        "centro centro centro centro centro"
+        "centro centro centro centro centro"
+        ;
+    }
+   .GIF{
+    width: 100%;
+    height: auto;
+   }
+   .oferta{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 60px;
+   }
+   .divcentro{
+       height: auto;
+       margin: 30px;
+   }
+   .footer-proceso{
+       /*height: 800px;*/
+       height: 900px;
+   }
+   .lista{
+       margin-left: 70px;
+   }
+   .contenido1{
+       width: 100%;
+       margin-left: 20px;
+   }
+   .contenido2{
+    width: 100%;
+    margin-left: 30px;
+    margin-top: 70px;
+   }
+   .grid-footer{
+       width: 100%;
+       height: 350px;
+       margin: 0;
+       display: grid;
+       grid-gap: 20px;
+       grid-template-columns: repeat(4, 19%);
+       grid-template-rows: repeat(4, auto);
+       grid-template-areas:
+       "contenido1 contenido1 contenido1 contenido1"
+       "contenido1 contenido1 contenido1 contenido1"
+       "contenido2 contenido2 contenido2 contenido2"
+       "contenido2 contenido2 contenido2 contenido2"
+       ;
+}
+}
+   
